@@ -1,0 +1,19 @@
+SELECT 10000 + '1';
+-- 형변환을 명시적으로 해줄 수 있다.
+SELECT CAST('444' AS SIGNED)  - 33;
+SELECT CONVERT('444', SIGNED) - 33;
+
+-- 절대값 구해주는 ABS
+SELECT ABS(-33);
+-- 반올림을 수행해주는 ROUND
+SELECT ROUND(123.44, 1);
+-- 올림, 내림 함수
+SELECT CEIL(123.44);
+SELECT FLOOR(123.44);
+-- 제곱값 함수 
+SELECT POW(5, 3);
+
+SELECT RAND();
+SELECT PI();
+
+SELECT '453' + '123';
